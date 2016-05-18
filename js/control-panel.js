@@ -64,7 +64,7 @@ function loadControlPanel(){
                 break;
             case 'f':
                 $controlPanel.tabs( "option", "active", 0);
-                statusMessage("normal","Running in fridge constant mode");
+                statusMessage("normal","Running in profile mode.");
                 break;
             case 'o':
                 $controlPanel.tabs( "option", "active", 3);
