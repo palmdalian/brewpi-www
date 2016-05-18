@@ -22,8 +22,8 @@
 		<div id="status-text">Status:</div>
 	</div>
 	<li><a href="#profile-control"><span>Beer profile</span></a></li>
-	<li><a href="#beer-constant-control"><span>Beer constant</span></a></li>
-	<li><a href="#fridge-constant-control"><span>Fridge constant</span></a></li>
+	<!-- <li><a href="#beer-constant-control"><span>Beer constant</span></a></li> -->
+	<li><a href="#fridge-constant-control"><span>Current Temp Target</span></a></li>
 	<li><a href="#temp-control-off"><span>Off</span></a></li>
 	<button id="apply-settings">Apply</button>
 	<div id="status-message" class="ui-state-error ui-corner-all">
@@ -115,14 +115,14 @@
 		</p>
 	</div>
 </div>
-<div id="beer-constant-control">
+<!-- <div id="beer-constant-control">
 	<div id="beer-temp" class="temp-display">
 		<div class="temp-container"></div>
 		<button id="beer-temp-up" class="temp-up"></button>
 		<input class='temperature' /><span class='degree'>&deg;<?php echo $tempFormat ?></span>
 		<button id="beer-temp-down" class="temp-down"></button>
 	</div>
-</div>
+</div> -->
 <div id="fridge-constant-control">
 	<div id="fridge-temp" class="temp-display">
 		<div class="temp-container"></div>
