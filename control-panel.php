@@ -23,7 +23,7 @@
 	</div>
 	<li><a href="#profile-control"><span>Beer profile</span></a></li>
 	<!-- <li><a href="#beer-constant-control"><span>Beer constant</span></a></li> -->
-	<li><a href="#fridge-constant-control"><span>Current Temp Target</span></a></li>
+	<!-- <li><a href="#fridge-constant-control"><span>Current Temp Target</span></a></li> -->
 	<li><a href="#temp-control-off"><span>Off</span></a></li>
 	<button id="apply-settings">Apply</button>
 	<div id="status-message" class="ui-state-error ui-corner-all">
@@ -123,13 +123,13 @@
 		<button id="beer-temp-down" class="temp-down"></button>
 	</div>
 </div> -->
-<div id="fridge-constant-control">
+<!-- <div id="fridge-constant-control">
 	<div id="fridge-temp" class="temp-display">
 		<div class="temp-container"></div>
 		<button id="fridge-temp-up" class="temp-up"></button>
 		<input class='temperature' /><span class='degree'>&deg;<?php echo $tempFormat ?></span>
 		<button id="fridge-temp-down" class="temp-down"></button>
-	</div>
+	</div> -->
 </div>
 <div id="temp-control-off">
 	<span id="temp-off-text">Temperature control disabled. Fridge will not cool or heat, but will still log temperatures.</span>

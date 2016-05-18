@@ -69,13 +69,13 @@
 	    	</div>
 	    	<div class="beer-chart-legend-row fridgeTemp">
 				<div class="toggle fridgeTemp" onClick="toggleLine(this)"></div>
-	    		<div class="beer-chart-legend-label" onClick="toggleLine(this)">Fridge Temp</div>
+	    		<div class="beer-chart-legend-label" onClick="toggleLine(this)">Beer Temp</div>
 	    		<div class="beer-chart-legend-value">--</div>
 	    		<br class="crystal" />
 	    	</div>
 	    	<div class="beer-chart-legend-row fridgeSet">
 				<div class="toggle fridgeSet" onClick="toggleLine(this)"></div>
-	    		<div class="beer-chart-legend-label" onClick="toggleLine(this)">Fridge Setting</div>
+	    		<div class="beer-chart-legend-label" onClick="toggleLine(this)">Beer Setting</div>
 	    		<div class="beer-chart-legend-value">--</div>
 	    		<br class="crystal" />
 	    	</div>
@@ -112,7 +112,7 @@
 	<div class="state-info">
 		<span class="state-color state-cooling"></span><span class="state-name">Cooling</span>
 		<span class="state-explanation">
-			The fridge is cooling!
+			The pumps are is cooling!
 		</span>
 	</div>
 	<div class="state-info"><span class="state-color state-heating"></span><span class="state-name">Heating</span>
@@ -122,7 +122,7 @@
 	</div>
 	<div class="state-info"><span class="state-color state-waiting-to-cool"></span><span class="state-name">Waiting to cool</span>
 		<span class="state-explanation">
-			The fridge is waiting to start cooling. It has to wait because BrewPi has just cooled or heated. There is a a minimum time for between cool cycles and a minimum time for switching from heating to cooling.
+			The pump is waiting to start cooling. It has to wait because BrewPi has just cooled or heated. There is a a minimum time for between cool cycles and a minimum time for switching from heating to cooling.
 		</span>
 	</div>
 	<div class="state-info"><span class="state-color state-waiting-to-heat"></span><span class="state-name">Waiting to heat</span>
@@ -132,17 +132,17 @@
 	</div>
 	<div class="state-info"><span class="state-color state-cooling-min-time"></span><span class="state-name">Cooling minimum time</span>
 		<span class="state-explanation">
-			There is a minimum on time for each cool cycle. When the fridge hits target but has not cooled the minimum time, it will continue cooling until the minimum time has passed.
+			There is a minimum on time for each cool cycle. When the pump hits target but has not cooled the minimum time, it will continue cooling until the minimum time has passed.
 		</span>
 	</div>
 	<div class="state-info"><span class="state-color state-heating-min-time"></span><span class="state-name">Heating minimum time</span>
 		<span class="state-explanation">
-			There is a minimum on time for each heat cycle too. When the fridge hits target but has not heated the minimum time, it will continue heating until the minimum time has passed.
+			There is a minimum on time for each heat cycle too. When the pump hits target but has not heated the minimum time, it will continue heating until the minimum time has passed.
 		</span>
 	</div>
 	<div class="state-info"><span class="state-color state-waiting-peak"></span><span class="state-name">Waiting for peak detect</span>
 		<span class="state-explanation">
-			BrewPi estimates fridge temperature overshoot to be able to turn off the actuators early. To adjust the estimators, it has to detect the peaks in fridge temperature.
+			BrewPi estimates pump temperature overshoot to be able to turn off the actuators early. To adjust the estimators, it has to detect the peaks in fridge temperature.
 			When BrewPi would be allowed to heat/cool by the time limits but no peak has been detected yet for previous cycle, it waits in this state for a peak.
 		</span>
 	</div>

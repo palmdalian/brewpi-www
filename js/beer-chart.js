@@ -35,8 +35,8 @@ var colorWaitingPeakDetect = "rgba(0, 0, 0, 0.2)";
 var lineNames = {
     beerTemp: 'Beer temperature',
     beerSet: 'Beer setting',
-    fridgeTemp: 'Fridge temperature',
-    fridgeSet: 'Fridge setting',
+    fridgeTemp: 'Beer temperature',
+    fridgeSet: 'Beer setting',
     roomTemp: 'Room temp.'};
 var legendStorageKeyPrefix = "legendLine_";
 
