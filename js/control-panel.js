@@ -63,7 +63,7 @@ function loadControlPanel(){
                 statusMessage("normal","Running in beer constant mode");
                 break;
             case 'f':
-                $controlPanel.tabs( "option", "active", 2);
+                $controlPanel.tabs( "option", "active", 0);
                 statusMessage("normal","Running in fridge constant mode");
                 break;
             case 'o':
