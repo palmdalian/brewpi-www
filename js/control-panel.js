@@ -142,12 +142,12 @@ function applySettings(){
         // $.post('socketmessage.php', {messageType: "setBeer", message: $beerTemp.val()}, function(){});
         // statusMessage("highlight","Mode set to beer constant");
         // break;
-        case 1: // fridge constant
-        var $fridgeTemp = $("#fridge-temp").find("input.temperature");
-        $.post('socketmessage.php', {messageType: "setFridge", message: $fridgeTemp.val()}, function(){});
-        statusMessage("highlight","Mode set to fridge constant");
-        break;
-        case 2: // off
+        // case 1: // fridge constant
+        // var $fridgeTemp = $("#fridge-temp").find("input.temperature");
+        // $.post('socketmessage.php', {messageType: "setFridge", message: $fridgeTemp.val()}, function(){});
+        // statusMessage("highlight","Mode set to fridge constant");
+        // break;
+        case 1: // off
         $.post('socketmessage.php', {messageType: "setOff", message: ""}, function(){});
         statusMessage("highlight","Temperature control disabled");
         break;
